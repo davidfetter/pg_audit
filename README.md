@@ -21,8 +21,8 @@ Auditing, as modeled here, consists of several components, some of
 which have executable components.
 
 - The table to be audited, hereinafter the audited table.  Changes to
-  the rows of this table need to be done with some care as to how that
-  will cascade through the auditing system.  In general,
+  the structure of this table need to be done with some care as to how
+  they will cascade through the auditing system.  In general,
   information-losing changes such as dropping a column or reducing a
   field's length are more dangerous and need to be thought through
   more carefully than information-gaining ones.
